@@ -8,8 +8,8 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/bot.js",
-    "dev": "env-cmd ts-node-dev src/bot.ts",
+    "start": "node dist/app.js",
+    "dev": "env-cmd ts-node-dev src/app.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
     "distribute": "yarn build-ts && node dist/app.js",
     "develop": "tsc-watch --skipLibCheck --onSuccess 'node dist/app.js'",
