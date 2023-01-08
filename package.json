@@ -10,11 +10,6 @@
     "start": "node dist/app.js",
     "dev": "env-cmd ts-node-dev src/app.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
-    "distribute": "yarn build-ts && node dist/app.js",
-    "develop": "tsc-watch --skipLibCheck --onSuccess 'node dist/app.js'",
-    "build-ts": "tsc --skipLibCheck",
-    "pretty": "prettier --check src",
-    "lint": "yarn pretty && eslint --max-warnings 0 --ext ts,tsx,json src"
   },
   "dependencies": {
     "@grammyjs/i18n": "^0.5.0",
