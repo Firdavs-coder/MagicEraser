@@ -2,7 +2,7 @@
   "name": "telegram-bot-starter",
   "version": "1.0.0",
   "description": "Telegram bot starter based on grammY",
-  "main": "dist/app.js",
+  "main": "src/app.ts",
   "repository": "https://github.com/Moldoteck/MagicEraser",
   "author": "Moldoteck <moldotecko@gmail.com>",
   "license": "MIT",
