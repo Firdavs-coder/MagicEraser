@@ -2,7 +2,6 @@
   "name": "telegram-bot-starter",
   "version": "1.0.0",
   "description": "Telegram bot starter based on grammY",
-  "main": "dist/app.js",
   "repository": "https://github.com/Borodutch/telegram-bot-template",
   "author": "backmeupplz <backmeupplz@gmail.com>",
   "license": "MIT",
